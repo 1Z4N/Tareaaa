@@ -4,7 +4,7 @@ pen = turtle.Pen()
 colors = ['white', 'red', 'blue', 'orange', 'green', 'yellow']
 
 for i in range(360):
-    pen.color(colors[i % 3])
+    pen.color(colors[i % 4])
     pen.forward(i)
-    pen.left(120)
-    pen.width(i/100 + 1)
+    pen.left(90)
+    pen.width(i/100 + 0)
